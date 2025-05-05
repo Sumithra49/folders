@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    height: 100vh;
+}
+.sidebar {
+    width: 25%;
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+}
+.sidebar h3 {
+    margin-bottom: 15px;
+}
+input, textarea, select {
+    width: 100%;
+    max-width: 400px; 
+    padding: 10px; 
+    font-size: 16px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+}
+
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+}
+button:hover {
+    background-color: #0056b3;
+}
+.form-container {
+    flex: 1;
+    padding: 20px;
+    background-color: gray;
+}
+.form-builder {
+    /* border: 2px dashed gray; */
+    min-height: 300px;
+    padding: 20px;
+    background-color: #fff;
+    width:50%;
+    margin-left: 300px;
+}
+.form-element {
+    padding: 10px;
+    /* border: 1px solid gray; */
+    margin: 10px 0;
+    background: white;
+    cursor: grab;
+    position: relative;
+}
+.delete-btn {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    cursor: pointer;
+    color: red;
+    font-weight: bold;
+}
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+.dark-mode .form-builder {
+    background-color: #1e1e1e;
+    border-color: white;
+}
+.dark-mode {
+    background-color: #121212;
+    color: black; 
+}
+
+.dark-mode .form-builder {
+    background-color: #1e1e1e;
+    border-color: black;
+}
+
+.dark-mode button {
+    background-color: #444;  
+    color: black;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; 
+    }
+
+    .sidebar, .form-container {
+        width: 100%;
+    }
+
+    .sidebar button {
+        font-size: 0.9rem;
+        padding: 8px 12px;
+    }
+}
+
+

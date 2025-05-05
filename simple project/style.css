@@ -1,0 +1,44 @@
+.div{
+    height:500px;
+    width:1000px;
+    background-color: red;
+    text-align: center;
+    margin-left: 150px;
+}
+
+.div2{
+    display: flex;
+    margin-left: 250px;
+    
+}
+.div2 h6{
+    font-size: 30px;
+}
+.div3{
+    display: flex;
+    margin-left: 250px;
+   
+}
+
+.div3 h6{
+    font-size: 30px;
+   
+  
+}
+#id1{
+    width: 200px;
+    height:20px;
+    background-color: white;
+    margin-top: 80px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+#id2{
+    width: 200px;
+    height:20px;
+    background-color: white;
+    margin-top: 80px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
